@@ -1,12 +1,13 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\FrontController;
-use App\Http\Controllers\AdminController;
-use App\Http\Controllers\FactureController;
-use App\Http\Controllers\CommandController;
-use App\Http\Controllers\StoreUserController;
+use Illuminate\Support\Facades\Artisan;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\FrontController;
+use App\Http\Controllers\CommandController;
+use App\Http\Controllers\FactureController;
+use App\Http\Controllers\StoreUserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,6 +24,11 @@ use App\Http\Controllers\UserController;
     return view('welcome');
 });*/
 
+Route::get('seed-seed', function()
+{
+    // Call and Artisan command from within your application.
+    Artisan::call('db:seed');
+});
 
 
 Route::group(['middleware' => ['auth', 'admin']], function () {
