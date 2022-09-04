@@ -92,9 +92,9 @@
                                 <li>
                                 <svg xmlns="http://www.w3.org/2000/svg" style="color:orange;"  width="16" height="16" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
                                     <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z"/>
-                                </svg> +212 655-446586 &nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" style="color:orange;" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                </svg> +212 623793549 &nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" style="color:orange;" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
                                     <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
-                                </svg> contact@fayaj.ma</li>
+                                </svg> ayoub_lafar@hotmail.com</li>
                             </ul>
                         </div>
                         <!--/ End Top Left -->
@@ -318,10 +318,10 @@
                             <!-- Single Widget -->
                             <div class="contact">
                                 <ul>
-                                    <li>NO. 342 - London Oxford Street.</li>
-                                    <li>012 Maroc.</li>
-                                    <li>contact@fayaj.ma</li>
-                                    <li>+212 655-446586</li>
+                                    <li>NO. 196 - Boulevard Mohamed V.</li>
+                                    <li>OuedZem , Maroc.</li>
+                                    <li>ayoub_lafar@hotmail.com</li>
+                                    <li>+212 623793549</li>
                                 </ul>
                             </div>
                             <!-- End Single Widget -->

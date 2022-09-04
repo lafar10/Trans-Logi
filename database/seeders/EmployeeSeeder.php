@@ -20,7 +20,7 @@ class EmployeeSeeder extends Seeder
                 "name"       =>    "John Doe",
                 "email"      =>    "b@b.b",
                 "prenom"      =>    "dfgdgdg",
-                "password"        =>    Hash::make('123456789'),
+                "password"        =>    Hash::make('12345678910'),
                 "adresse"    =>    "USA, California",
                 "ville" =>    "gggg",
                 "region" =>    "gggg",
