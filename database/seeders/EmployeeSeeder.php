@@ -24,6 +24,7 @@ class EmployeeSeeder extends Seeder
                 "adresse"    =>    "USA, California",
                 "ville" =>    "gggg",
                 "region" =>    "gggg",
+                "user_type" => "admin",
                 "societe_name" =>    "gggg",
                 "site_web" =>    "gggg",
                 "rc" =>    "gggg",
