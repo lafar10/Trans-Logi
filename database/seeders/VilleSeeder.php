@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use App\Models\Ville;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class VilleSeeder extends Seeder
 {
@@ -14,7 +15,7 @@ class VilleSeeder extends Seeder
      */
     public function run()
     {
-        $data = [
+        DB::teble('Ville')->create(
                 ['id'=>'1','ville' =>'Aïn Harrouda','region' => '1'],
                 ['id'=>'2','ville' =>'Ben Yakhlef','region' => '1'],
                 ['id'=>'3','ville' =>'Bouskoura','region' => '1'],
@@ -409,7 +410,6 @@ class VilleSeeder extends Seeder
                 ['id'=>'402','ville' =>'Oued-Eddahab ','region' => '1'],
                 ['id'=>'403','ville' =>'Stehat','region' => '1'],
                 ['id'=>'404','ville' =>'Aït Attab','region' => '1']
-        ];
-        Ville::create($data);
+        );
     }
 }
