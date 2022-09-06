@@ -14,7 +14,7 @@ class VilleSeeder extends Seeder
      */
     public function run()
     {
-        Ville::create([
+        Ville::create(
                 [1, 'Aïn Harrouda', 1],
                 [2, 'Ben Yakhlef', 1],
                 [3, 'Bouskoura', 1],
@@ -409,6 +409,6 @@ class VilleSeeder extends Seeder
                 [402, 'Oued-Eddahab ', 1],
                 [403, 'Stehat', 1],
                 [404, 'Aït Attab', 1]
-        ]);
+        );
     }
 }
