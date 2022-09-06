@@ -25,7 +25,7 @@
                         <div class="col mr-2">
                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
                                 Earnings (Total)</div>
-                            <div class="h5 mb-0 font-weight-bold text-gray-800">{{\App\Models\Facture::all()->sum('montant_total')}} DH's</div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">{{\App\Models\Facture::get()->sum('montant_total')}} DH's</div>
                         </div>
                         <div class="col-auto">
                             <i class="fas fa-calendar fa-2x text-gray-300"></i>
