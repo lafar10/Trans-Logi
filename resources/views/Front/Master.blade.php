@@ -151,7 +151,8 @@
                                             </a>
 
                                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                                <form action="{{ route('edit.user.acount') }}" method="get">
+                                               <a class="dropdown-item" href="{{ route('Dashboard') }}">Dashboard</a>
+                                               <form action="{{ route('edit.user.acount') }}" method="get">
                                                     <input type="hidden" name="user_id" value="{{Auth::user()->id}}">
                                                     <button type="submit" class="dropdown-item">
                                                         <svg xmlns="http://www.w3.org/2000/svg" style="color:orange;" width="16" height="16" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
