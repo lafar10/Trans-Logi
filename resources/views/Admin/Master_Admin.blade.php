@@ -62,6 +62,7 @@
             </div>
 
             <!-- Nav Item - Pages Collapse Menu -->
+            @if(auth()->check() && auth()->user()->user_type == 'admin')
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
@@ -75,6 +76,7 @@
                     </div>
                 </div>
             </li>
+            @endif
             <!-- Divider -->
             <hr class="sidebar-divider">
             <li class="nav-item">
