@@ -15,7 +15,7 @@ class VilleSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('ville')->create(
+        DB::table('ville')->insert(
                 ['id'=>'1','ville' =>'Aïn Harrouda','region' => '1'],
                 ['id'=>'2','ville' =>'Ben Yakhlef','region' => '1'],
                 ['id'=>'3','ville' =>'Bouskoura','region' => '1'],
