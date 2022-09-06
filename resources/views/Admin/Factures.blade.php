@@ -46,6 +46,7 @@
                                 <th>Minutes</th>
                                 <th>period</th>
                                 <th>etat facture</th>
+                                <th>Created At</th>
                                 <th>Opérations</th>
                                 <th>PDF</th>
                             </tr>
@@ -70,6 +71,7 @@
                                <td>{{$facture->minutes}}</td>
                                <td>{{$facture->period}}</td>
                                <td>{{$facture->etat_facture}}</td>
+                               <td>{{$facture->created_at}}</td>
                                     <td>
                                         <div class="row">
                                             <div class="col-lg-3 col-12">
