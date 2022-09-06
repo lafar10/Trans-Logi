@@ -14,7 +14,7 @@ class VilleSeeder extends Seeder
      */
     public function run()
     {
-        Ville::create([
+        $data = [
                 ["id"=>'1',"ville" =>'Aïn Harrouda',"region" => '1'],
                 ["id"=>'2',"ville" =>'Ben Yakhlef',"region" => '1'],
                 ["id"=>'3',"ville" =>'Bouskoura',"region" => '1'],
@@ -408,7 +408,8 @@ class VilleSeeder extends Seeder
                 ["id"=>'401',"ville" =>'Awsard',"region" => '1'],
                 ["id"=>'402',"ville" =>'Oued-Eddahab ',"region" => '1'],
                 ["id"=>'403',"ville" =>'Stehat',"region" => '1'],
-                ["id"=>'404',"ville" =>'Aït Attab',"region" => '1']
-        ]);
+                ["id"=>'404',"ville" =>'Aït Attab',"region" => '1'],
+        ];
+        Ville::create($data);
     }
 }
