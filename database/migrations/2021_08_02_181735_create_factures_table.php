@@ -21,7 +21,7 @@ class CreateFacturesTable extends Migration
             $table->string('tel');
             $table->string('adresse');
             $table->string('poids');
-            $table->string('montant_total');
+            $table->integer('montant_total');
             $table->string('vehicule_type');
             $table->string('lieu_ramassage');
             $table->string('lieu_depose');
