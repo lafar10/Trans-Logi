@@ -205,7 +205,15 @@
                                             </div>
 
                                         </div>
-
+                                        <div class="col-lg-6 col-12">
+                                            <div class="form-group">
+                                                <label>Created At<span>*</span></label>
+                                                <input name="created_at" class="form-control" type="date" value="{{$factures->created_at}}"  style="border-radius: 0%;" placeholder="">
+                                                @if($errors->has('created_at'))
+                                                    <div class="error" style="color:red;font-size:17px;width:360px;margin-top:5px;">{{ $errors->first('created_at') }}</div>
+                                                @endif
+                                            </div>
+                                        </div>
 
                                         <div class="col-12">
                                             <div class="form-group button" align="center">
