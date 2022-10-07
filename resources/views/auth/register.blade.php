@@ -52,6 +52,13 @@
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
                             <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#man" role="tab">{{ __('home.register ici') }}</a></li>
                         </ul>
+                        <br>
+                        <br>
+                         @if(Auth::user())
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/Dashboard">Dashboard</a>
+                        </li>
+                    @endif
                         <!--/ End Tab Nav -->
                     </div>
                     <div class="tab-content" id="myTabContent">
