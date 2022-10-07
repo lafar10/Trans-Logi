@@ -46,6 +46,13 @@
                                                     <div class="col-12">
                                                         <div class="section-title">
                                                             <h2>{{ __('home.CONNECTEZ-VOUS À VOTRE COMPTE') }}</h2>
+                                                            <br>
+                                                            <br>
+                                                             @if(Auth::user())
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link active" aria-current="page" href="/Dashboard">Dashboard</a>
+                                                                </li>
+                                                            @endif
                                                         </div>
                                                     </div>
                                                 </div>
