@@ -12,11 +12,17 @@
         @endif
     </div>
     <br>
-     @if(Auth::user())
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/Dashboard">Dashboard</a>
-        </li>
-    @endif
+     <div class="container">
+        @auth
+        
+    @endauth
+
+    @guest
+        <div class="alert alert-primary">
+            créer un nouveau compte pour accéder au tableau de bord
+      </div>
+    @endguest
+   </div>
 @include('Front.Forms')
 @include('Front.just')
 
