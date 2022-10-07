@@ -233,6 +233,11 @@
                                     <div class="navbar-collapse" >
                                         <div class="nav-inner" >
                                             <ul class="nav main-menu menu navbar-nav" >
+                                             @if(Auth::user())
+                                                <li class="nav-item">
+                                                    <a class="nav-link active" aria-current="page" href="/Dashboard">Dashboard</a>
+                                                </li>
+                                            @endif
                                                 <li class="{{ request()->is('#sec-1') ? 'active' : '' }}"><a href="{{route('index')}}#sec-1"><img src="images/aaa.png" style="width:29px;height:32px;"> {{ __('home.transporteur') }}</a></li>
                                                 <li class="{{ request()->is('#sec-2') ? 'active' : '' }}"><a href="{{route('index')}}#sec-2"><img src="images/value.png" style="width:29px;height:32px;margin-bottom:3px;"> {{ __('home.notre valeur') }}</a></li>
                                                 <li class="{{ request()->is('#sec-3') ? 'active' : '' }}"><a href="{{route('index')}}#sec-3"><img src="images/consult.png" style="width:29px;height:32px;"> {{ __('home.nos services') }}</a></li>
