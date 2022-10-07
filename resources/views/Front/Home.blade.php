@@ -11,6 +11,12 @@
             </div>
         @endif
     </div>
+    <br>
+     @if(Auth::user())
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/Dashboard">Dashboard</a>
+        </li>
+    @endif
 @include('Front.Forms')
 @include('Front.just')
 
